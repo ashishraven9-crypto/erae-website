@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { Instagram } from "lucide-react";
 
 export default function FounderStory() {
   return (
@@ -66,8 +67,9 @@ export default function FounderStory() {
               href="https://www.instagram.com/barely.shreya/?hl=en" 
               target="_blank" 
               rel="noopener noreferrer"
-              style={{ fontSize: '0.9rem', letterSpacing: '0.05em', textTransform: 'uppercase', borderBottom: '1px solid var(--color-graphite)', paddingBottom: '0.2rem' }}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', letterSpacing: '0.05em', textTransform: 'uppercase', borderBottom: '1px solid var(--color-graphite)', paddingBottom: '0.2rem', textDecoration: 'none', color: 'inherit' }}
             >
+              <Instagram size={16} />
               @barely.shreya
             </a>
           </div>
