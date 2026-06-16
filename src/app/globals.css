@@ -33,3 +33,50 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.atelier-section {
+  padding: 10rem 4rem;
+  background-color: var(--color-woven-flax);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atelier-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+}
+
+.atelier-grid-item-2 {
+  margin-top: 8rem;
+}
+
+.atelier-grid-image-2 {
+  width: 80%;
+  padding-top: 120%;
+  background-color: #cfd4ce;
+  margin-left: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .atelier-section {
+    padding: 5rem 1.5rem;
+  }
+  .atelier-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .atelier-grid-item-2 {
+    margin-top: 2rem;
+  }
+  .atelier-grid-image-2 {
+    width: 100%;
+    margin-left: 0;
+  }
+}
